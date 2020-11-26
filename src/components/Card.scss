@@ -1,0 +1,26 @@
+.card{
+    width: 300px;
+    padding: 1rem;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+
+    #date, #url{
+        font-size: small;
+        color: grey;
+    }
+
+    a{
+        color: grey;
+    }
+  }
+
+  .card:hover{
+      background-color: whitesmoke;
+  }
+
+  @media only screen and (max-width: 670px){
+    .card{
+      width: 100%;
+     margin-bottom: 1rem;
+    }
+  }
